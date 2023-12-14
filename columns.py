@@ -12,7 +12,7 @@ col4, col5 = st.columns(2)
 
 with header_container:
     # Use Markdown for Writing Web Text
-    st.title("Hello Worlds :wave:")
+    st.title("Hello World :wave:")
     st.write("Welcome to Python Streamlit")
 
 with column_container1:
