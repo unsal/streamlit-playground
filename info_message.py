@@ -8,7 +8,7 @@ col1, col2, col3 = st.columns([1, 2, 1])
 
 with header_container:
     # Use Markdown for Writing Web Text
-    st.title("Info Message :wave:")
+    st.title("Info Messages :wave:")
 
 
 # Container is just for organizing code. It is optional
