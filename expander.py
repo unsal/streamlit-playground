@@ -7,7 +7,7 @@ header_container = st.container()
 with header_container:
     # Use Markdown for Writing Web Text
     st.title("Hello World :wave:")
-    st.write("Welcome to Python Streamlit")
+    st.write("Welcome to Python Streamlit Playground")
 
     with st.expander("Click here to read more"):
         st.write("This is the detail section")
