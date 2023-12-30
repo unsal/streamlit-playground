@@ -1,4 +1,4 @@
-import streamlit as st  # use on Terminal as: streamlit run yz_streamlit.py
+import streamlit as st  # use on Terminal as: streamlit run photo_taken.py
 import time
 
 header_container = st.container()
