@@ -3,6 +3,7 @@ import time
 
 
 header_container = st.container()
+body_container = st.container()
 
 
 with header_container:
@@ -10,6 +11,7 @@ with header_container:
     st.title("Hello World :wave:")
     st.write("Welcome to Python Streamlit")
 
+with body_container:
     progress_value = st.progress(0)
     for i in range(100):
         time.sleep(0.05)
