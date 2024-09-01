@@ -2,7 +2,7 @@ import streamlit as st
 from datetime import datetime
 
 #Expander in sidebar
-st.sidebar.subheader('Expander')
+st.sidebar.subheader('Sidebar Container')
 with st.sidebar.expander('Time'):
     time = datetime.now().strftime("%H:%M:%S")
     st.write('**%s**' % (time))
@@ -30,7 +30,7 @@ body_container = st.container()
 
 with body_container:
     
-    st.subheader('Expander')
+    st.subheader('Body Container')
     with st.expander('Time'):
         time = datetime.now().strftime("%H:%M:%S")
         st.write('**%s**' % (time))
@@ -47,10 +47,11 @@ with body_container:
         
     #Container in main body
     container = st.container()
-    container.subheader('Container')
+    container.subheader('Body Detail Container')
 
     option_6 = container.slider('Please select option 6')
-    st.warning('Elements outside of container will be displayed externally')
     container.info('**Option 6:** %s' % (option_6))
+    
+    st.warning('Elements outside of container will be displayed externally')
     
     

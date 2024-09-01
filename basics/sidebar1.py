@@ -20,3 +20,4 @@ with sidebar_container:
 
     if pet_color:
         col1.text("Sidebar selection occured")
+        col2.text("TEST")
